@@ -19,14 +19,14 @@ cd Admin
 
 2. Install dependencies:
 ```bash
-pnpm install
+npm install
 ```
 
 3. Create a `.env.local` file with required environment variables (see `.env.example`)
 
 4. Run the development server:
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ### Buyer App
