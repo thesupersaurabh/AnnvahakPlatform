@@ -1,0 +1,88 @@
+# Dependencies
+**/node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js specific
+**/.next/
+**/out/
+**/build/
+**/dist/
+
+# Expo specific
+**/.expo/
+**/web-build/
+**/.metro-health-check*
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+**/next-env.d.ts
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+*.pem
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.pyc
+
+# Logs
+logs
+*.log
+
+# Build output
+**/build/
+**/dist/
+
+# Cache
+.cache/
+**/.next/cache/
+
+# Git
+**/.git/
+
+# Temporary files
+*.bak
+*.tmp
+*~ 
