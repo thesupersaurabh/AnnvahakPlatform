@@ -46,6 +46,10 @@ This project has the potential to transition from a college project to a real-wo
 - Chat with buyers
 - Works offline with synchronization
 
+## 📚 API Documentation
+
+For detailed API documentation, please refer to the [API Documentation](api-docs.md) file.
+
 ## 🔧 Technologies
 
 - **Backend**: Flask, PostgreSQL, JWT, Bcrypt, Gunicorn
@@ -99,7 +103,22 @@ cd AnnvahakPlatform
 
 2. Set up the backend:
 ```
+# Install required dependencies
 pip install -r requirements.txt
+
+# Configure PostgreSQL connection
+# Create environment variables or set them directly before running:
+export DB_NAME=your_database_name
+export DB_USER=your_database_user
+export DB_PASSWORD=your_database_password
+export DB_HOST=localhost
+export DB_PORT=5432
+export SECRET_KEY=your_secret_key
+
+# Create the PostgreSQL database
+createdb your_database_name
+
+# Start the backend server
 python backend.py
 ```
 
