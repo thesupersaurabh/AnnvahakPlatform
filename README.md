@@ -46,9 +46,14 @@ This project has the potential to transition from a college project to a real-wo
 - Chat with buyers
 - Works offline with synchronization
 
-## 📚 API Documentation
+## 📚 Documentation
 
-For detailed API documentation, please refer to the [API Documentation](api-docs.md) file.
+- [API Documentation](api-docs.md) - Comprehensive API reference for all endpoints and data structures
+- [License](LICENSE) - MIT License details
+- Component Documentation:
+  - Admin Website - Built with Next.js and ShadCN UI components
+  - Mobile Apps - Built with React Native and Expo
+- Installation instructions - See the [Getting Started](#getting-started) section below
 
 ## 🔧 Technologies
 
@@ -88,8 +93,8 @@ For detailed API documentation, please refer to the [API Documentation](api-docs
 ## Getting Started
 
 ### Prerequisites
-- Python 3.9+
-- Node.js 14+
+- Python
+- Node.js
 - PostgreSQL
 - React Native development environment
 
@@ -144,7 +149,7 @@ npx expo start
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - Smart India Hackathon for the inspiration
