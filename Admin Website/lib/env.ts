@@ -12,8 +12,7 @@ const getEnvVar = (key: string, defaultValue: string = ''): string => {
   return fromEnv || defaultValue;
 };
 
-// API URL with fallback to localhost:5000 if not defined
-export const API_URL = getEnvVar('API_URL', 'http://localhost:5000');
+export const API_URL = getEnvVar('API_URL');
 
 // Check and log API URL on startup
 if (typeof window !== 'undefined') {
